@@ -35,6 +35,10 @@
     gap: 22px;
     color: black;
 }
+.menus ul li:hover{
+    color: blue;
+    cursor: pointer;
+}
 .quote{
     height: 30px;
     width: 10%;
@@ -48,7 +52,10 @@
     align-items: center;
     justify-content: center;
 }
-
+.quote:hover{
+    color: blue;
+    cursor: pointer;
+}
 .page1{
     height: 390px;
     width: 100%;
@@ -111,7 +118,7 @@
     color: #6666;
 }
 .page2 img:hover{
-    color: #6666;
+   cursor:pointer;
 
 }
 .service{
